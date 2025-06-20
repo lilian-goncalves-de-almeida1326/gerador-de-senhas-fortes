@@ -72,11 +72,3 @@ Este gerador utiliza critérios comuns para fortalecer as senhas, como:
 * Opções para personalizar o tamanho da senha;
 * Checkbox para incluir/excluir tipos de caracteres;
 * Copiar senha com um clique.
-
-## 📄 Licença
-
-Este projeto é livre para fins educacionais e pessoais.
-
----
-
-Se quiser, posso exportar em PDF ou Markdown também. Deseja?

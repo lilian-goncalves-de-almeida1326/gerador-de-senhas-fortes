@@ -1,20 +1,12 @@
-Claro! Você pediu um README para o seguinte código HTML (de um gerador de senhas), certo? Como você mencionou anteriormente, o código começava assim:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/reset.css">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <title>Gerar senha</title>
-</head>
+```javascript
+function copiarSenha(){
+    navigator.clipboard.writeText(password).then(() => {
+        console.log("Senha copiada!");
+    }).catch(err => {
+        console.error("Erro ao copiar:", err);
+    });
+}
 ```
-
-Com base nisso, aqui está o README recriado:
-
----
 
 # 🔐 Gerador de Senhas Fortes
 

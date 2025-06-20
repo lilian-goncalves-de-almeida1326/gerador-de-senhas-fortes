@@ -1,0 +1,127 @@
+:root{
+    --primary-color:#333;
+    --second-color:#aaa;
+    --thirt-color: #04AA6D;
+}
+
+body{
+    background-color: var(--second-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(var(--second-color) 0%, var(--primary-color)80%); */
+    border: 1px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+.password-view{
+    border: 3px solid var(--primary-color);
+    border-radius: 20px;
+    width: 80vw;
+    height: 8vh;
+    padding: 6px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-label{
+    max-width: 60ch;
+    -webkit-line-clamp: 5;
+}
+
+.sinalized-levels-password{
+    display: flex;
+}
+
+.level{
+    width: 10vw;
+    height: 1.5vh;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.level-security-password{
+    padding: 10px;
+}
+
+.options{
+    display: flex;
+}
+
+.buttons{
+    display: grid;
+    padding: 20px;
+}
+
+.titulo-tam-senha{
+    padding: 20px;
+}
+
+.range-button{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+}
+
+#range-value{
+    padding: 5px;
+}
+
+/* 
+.char-range{
+    -webkit-appearance: none;
+    appearance: none;
+    background: #101;
+
+}
+
+.char-range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background: #04AA6D;
+    cursor: pointer;
+} */
+
+.buttons-password{
+    display: flex;
+}
+
+.button{
+    border-radius: 15px;
+    width: 40vh;
+    height: 7vh;
+    margin: 10px;
+    color: aliceblue;
+    background-color: var(--primary-color);
+}
+
+.lista-senhas-salvas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+}
+
+.lista-senhas-salvas ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-senhas-salvas ul li{
+   padding: 1px;
+}
+
+.levels-password{
+    background-color: var(--thirt-color);
+}
+
+

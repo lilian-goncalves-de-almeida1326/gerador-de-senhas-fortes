@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Gerar senha</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>GERADOR DE SENHAS</h1>
+        <div class="password-view">
+            <p class="password-label"></p>
+            <button type="button" onclick="copiarSenha()">copiar Senha</button>
+
+        </div>
+        <div class="sinalized-levels-password">
+            <div class="level levels-password" id="lv-1"></div>
+            <div class="level" id="lv-2"></div>
+            <div class="level" id="lv-3"></div>
+        </div>
+        <div class="level-security-password"><h3>Esperando senha</h3></div>
+        <div class="options">
+            <div class="buttons">
+                <label for=""><input type="checkbox" name="minusculas" id="char-min" checked>Letras minúsculas
+                </label>
+                <label><input type="checkbox" name="maiusculas" id="char-mai">Letras maiúsculas</label>
+                <label> <input type="checkbox" name="numeros" id="char-num">Números</label>
+                <label><input type="checkbox" name="caracteres especiais" id="char-esp" >Caracteres especiais (ex: @#$%!)</label>
+            </div>
+            <div class="">
+                <p class="titulo-tam-senha">Tamanho da senha</p>
+                
+                <div class="range-button">
+                    <input type="range" name="" id="char-range" value="10" min="6" max="60">
+                    <h6 id="range-value">10</h6>
+                </div>
+            </div>
+
+        </div>
+        <div class="buttons-password">
+            <button type="button" class="button" onclick="gerarSenha()">Gerar Senha</button>
+            <button type="button" class="button" onclick="salvarSenha()">Salvar Senha</button>
+            <button type="button" class="button" onclick="baixarSenha()">Baixar Senha</button>
+        </div>
+
+        <div class="lista-senhas-salvas">
+            <h2>Últimas senhas salvas</h2>
+            <ul>
+                <!-- <li>senha 1</li>
+                <li>senha 2</li>
+                <li>senha 3</li> -->
+            </ul>
+        </div>
+
+    </div>
+    
+</body>
+
+<script src="../JAVASCRIPT/script.js"></script>
+</html>

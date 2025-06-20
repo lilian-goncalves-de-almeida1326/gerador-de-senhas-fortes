@@ -22,7 +22,12 @@ Este é um projeto simples de uma página web para gerar senhas fortes de forma 
 
 ## 📌 Funcionalidades
 
-* Geração automática de senhas seguras;
+* Geração automática de senhas
+* Avaliação da segurança da senha gerada;
+* Opções para personalizar o tamanho da senha;
+* Checkbox para incluir/excluir tipos de caracteres;
+* Copiar senha com um clique;
+* Salvar as ultimas 3 senhas criadas;
 * Interface leve e responsiva;
 * Design limpo e objetivo;
 * Fácil de usar: basta um clique para gerar uma nova senha.
@@ -69,6 +74,5 @@ Este gerador utiliza critérios comuns para fortalecer as senhas, como:
 
 ## 🛠️ Melhorias Futuras
 
-* Opções para personalizar o tamanho da senha;
-* Checkbox para incluir/excluir tipos de caracteres;
-* Copiar senha com um clique.
+* Gerar senhas personalizadas com palavras
+* salvar mais de uma senha em arquivo .txt
